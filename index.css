@@ -2,6 +2,11 @@ body{
     margin: auto;
 }
 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container{
     max-width: 1440px;
     margin: auto;
@@ -20,6 +25,80 @@ body{
     width: 50px;
     height: 42px;
 }
+.top-section{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+.top_section_images{
+    display: flex;
+    gap: 21px;
+}
+
+
+.route{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 120px 0;
+}   
+.dugui{
+    width: 56px;
+    height: 56px;
+    background-color: black;
+    border-radius: 50%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    z-index: 1;
+}
+.route{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.left_top{
+    width: 198px;
+    height: 29px;
+    font-style: bold;
+    font-size: 24px;
+    color: #ABABAB;
+    line-height: 100%;
+    
+}
+.left_top_2{
+    width: 358px;
+    height: 118px;
+    top: 39px;
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    color: #303030;
+    line-height: 100%;
+    
+}
+.marshrut{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.marshrut h4{
+    margin: 0%;
+}
+.marshrut p{
+    color: gray;
+    margin: 0%;
+}
+
+
+
+
 
 
 
@@ -27,6 +106,11 @@ body{
 /* top section */
 .top_section_title_container{
     margin: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 700;
 }
 
 .top_section_title{
@@ -54,29 +138,245 @@ body{
     justify-content: center;
     gap: 21px;
 }
-
-/* middle section start */
-.middle_section{
+.middle-section{
+    display: flex;
+    position: absolute;
+    margin-left: 120px;
     margin-top: 240px;
-    display: flex;
-    justify-content: space-between;
+    width: 1198px;
+    height: 845px;
 }
+.text-middle{
+    display: flex;
+    position: absolute;
+    height:796px ;
+    width: 358px;
+}
+.middle-map{
+    display: flex;
+    position: absolute;
+    width: 692px;
+    height: 845px;
+    right: 0;
+}
+.Destination{
+    display: flex;
+    position: absolute;
+    width: 358px;
+    height: 157px;
+}
+.marshrut{
+    display: flex;
+    position: absolute;
+    gap: 16px;
+    bottom: 49px;
+    width: 303px;
+    height: 559px;
 
-.middle_section_left{
-    margin-right: 150px;
-    font-weight: 198px;
-    font-synthesis-weight: 29px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #ABABAB;
-    display: flex;
-    flex-direction: column;
 }
-.left_top_2{
+.D1{
+    display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.D2{
+   display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.D3{
+   display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.D4{
+   display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.D5{
+   display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.D6{
+   display: flex;
+    position: relative;
+    width: 303px;
+    height: 79.83332824707031px;
+}
+.d1-baruun{
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 231px;
+    height: 79.83332824707031px;
+    gap: 4px;
+}
+.d-text1{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 159px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}
+.d-text2{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    width: 68px;
+    height: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+.d4-text2{
+display: flex;
+    position: absolute;
+    bottom: 20px;
+    width: 68px;
+    height: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+.d4-text1{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 180px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}
+.d5-text1{
+display: flex;
+    position: absolute;
+    top: 20px;
+    width: 233px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}
+.d5-text2{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    width: 44px;
+    height: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+.circle-container{
+    display: flex;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 12px;
+}
+.circle{
+    width: 56px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: black;
+}
+.Circle-D{
+    display: flex;
+    position: absolute;
+    left: 17.5px;
+    top: 17.5px;
+    width: 21px;
+    height: 21px;
+    color: green;
+    background-color:black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+}
+.Destination1{
+width: 198px;
+height: 29px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 100%;
+color: #ABABAB;
+}
+.Destination2{
+    display: flex;
+    position: absolute;
+    top: 39px;
+    width: 358px;
+    height: 118px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 48px;
+    line-height: 100%;
     color: #303030;
-    font-synthesis-weight: 118px;
-    font-width: 358px;
-    margin-top: 39px;
+}
+.day-dash{
+    border-left: 3px dashed #1d1f24;
+    height: 45px;
+    position: absolute;
+    left: 45%;
+    bottom:-60px;
+}
+.Tug5{
+    display: flex;
+    position: absolute;
+    top:182px;
+    left: 113px;
+    width: 35px;
+    height: 56px;
+}
+.Tug4{
+    display: flex;
+    position: absolute;
+    top:461px;
+    left: 52px;
+    width: 35px;
+    height: 56px;
+   
+}
+.Tug3{
+    display: flex;
+    position: absolute;
+    top:451px;
+    left: 85px;
+    width: 35px;
+    height: 56px;
+}
+.Tug2{
+    display: flex;
+    position: absolute;
+    top:296px;
+    left: 551px;
+    width: 35px;
+    height: 56px;
+}
+.Tug16{
+  display: flex;
+    position: absolute;
+    top:461px;
+    left: 641px;
+    width: 46px;
+    height: 56px;  
 }
